@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <p class="logo-p">ICS</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Contact</li>
+        </ul>
+        <img src="/public/img/menu.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+        <div class="header-content-inner-1">
+            <div class="header-content-inner-2">
+                <h1>Let's Talk,</h1>
+                <h2> Grow Your BUSINESS With Us</h2>
+                <p>ICS is here to Provide adequate and speed proficiency skills to elevate the image of our clients.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <script>
+        //create a btn
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', ()=> {
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
