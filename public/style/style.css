@@ -51,7 +51,7 @@ ul {
   height: 20px;
   width: 20px;
   /* background-color: aqua; */
-  background-image: url('/public/img/logo-removebg-preview.png');
+  background-image: url('../img/logo-removebg-preview.png');
   background-position: top;
   background-size: cover;
   /* color: rgb(255, 255, 255); */
@@ -89,7 +89,7 @@ p {
 }
 
 .header-content {
-  background-image: url('/public/img/african-american-business-woman-working-computer-bar.jpg');
+  background-image: url('../img/african-american-business-woman-working-computer-bar.jpg');
   background-position: top;
   background-size: cover;
   color: rgb(255, 255, 255);
