@@ -9,6 +9,12 @@
 
 a {
 text-decoration: none;
+color: rgb(255, 255, 255);
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links a:focus {
+  color: #333;
 }
 
 .navbar {
@@ -18,10 +24,28 @@ text-decoration: none;
   left:0;
   display:flex;
   width: 100%;
+  height: 5%;
   justify-content: space-between;
   padding: 20px;
-  color: rgb(255, 255, 255);
+  background: #0A3593; 
   /* background-color: rgba(0, 0, 0, 0); */
+}
+
+.hi-class {
+  display: unset;
+}
+
+.hi-class:hover {
+  height: 20px;
+  width: 20px;
+  /* background-color: aqua; */
+  background-image: url('../img/icons8-talk-64.png');
+  background-position: top;
+  background-size: contain;
+  display: inline-block;
+  transition: all 10s ease-out;
+  transition-delay: 10s;
+  /* color: rgb(255, 255, 255); */
 }
 
 ul {
@@ -54,6 +78,7 @@ ul {
   background-image: url('../img/logo-removebg-preview.png');
   background-position: top;
   background-size: cover;
+  align-self: center;
   /* color: rgb(255, 255, 255); */
 }
 
@@ -66,22 +91,41 @@ ul {
 
 /* header */
 .header-content-inner-1{
-  height: 100vh;
+  height: 115vh;
  width: 100%;
- background: linear-gradient(#64bde6c5, #b781e4af);
+ background: rgba(0, 0, 0, 0.5);
   display: flex;
  align-items: center;
  justify-content: center;
+ /* background-color: aqua; */
 
 }
 
 .header-content-inner-2{
   height: 50%;
  width: 60%;
- /* background-color: aqua; */
-
+ /* background-color: pink; */
+ align-items: center;
+ display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.header-content-inner-2 .header-text {
+  font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 69px;
+}
+
+.header-content-inner-2 .paragraph-class {
+  align-items: center;
+  display: flex;
+   justify-content: start;
+   flex-direction: column;
+   /* background-color: #0A3593; */
+   height:  40%;
+}
 p {
   padding-top: 5%;
   font-size: 10px;
@@ -89,7 +133,7 @@ p {
 }
 
 .header-content {
-  background-image: url('../img/african-american-business-woman-working-computer-bar.jpg');
+  background-image: url('../img/unsplash_FlPc9_VocJ4\ \(1\).png');
   background-position: top;
   background-size: cover;
   color: rgb(255, 255, 255);
@@ -102,11 +146,11 @@ p {
 /* CSS */
 .btn {
   
-  background-color: #fff;
+  background-color: #FA7942;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
   box-sizing: border-box;
-  color: #0d172a;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -125,10 +169,121 @@ p {
 }
 
 .btn:hover {
-  background: linear-gradient(#64bde6c5, #b781e4af);
+  background-color: #ffffff;
 
-  color: #fff;
+  color: #FA7942;
 }
+
+
+
+
+
+
+/* Aims and missions */
+
+.acheivements-parent {
+  width: 100%;
+height: 250px;
+/* background-color: #0A3593; */
+display: flex;
+justify-content: center;
+align-items: flex-start;
+margin-top: -5%;
+
+}
+
+.acheivements {
+  width: 80%;
+height: 70%;
+background: #FFFFFF;
+border: 0.6px solid #E1D8D8;
+box-sizing: border-box;
+box-shadow: 0px 4px 30px rgba(142, 138, 138, 0.21);
+border-radius: 15px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: row;
+}
+
+
+.vision {
+  width: 30%;
+height: 80%;
+/* background: blueviolet; */
+display: flex;
+justify-content: start;
+align-items: flex-start;
+flex-direction: column;
+}
+
+.vision-logo {
+  height: 40px;
+  width: 40px;
+  /* background-color: aqua; */
+  background-image: url('../img/Binoculars.png');
+  background-position: top;
+  background-size: cover;
+}
+
+.mission-logo {
+  height: 40px;
+  width: 40px;
+  /* background-color: aqua; */
+  background-image: url('../img/Rocket.png');
+  background-position: top;
+  background-size: cover;
+}
+
+.value-logo {
+  height: 40px;
+  width: 40px;
+  /* background-color: aqua; */
+  background-image: url('../img/Morale.png');
+  background-position: top;
+  background-size: cover;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 39px;
+  margin-top: -5%;
+  color: #494B4E;
+
+}
+
+.aims {
+  font-style: normal;
+font-weight: regular;
+font-size: 10px;
+}
+ 
+
+
+.features-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  color: #FA7942;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1080px) {
   .btn {
@@ -136,6 +291,10 @@ p {
     padding: 0.5rem 0.5rem;
   }
 }
+
+
+
+
 
 
 @media  only screen and (max-width: 550px) {
@@ -152,14 +311,15 @@ p {
 
   .navbar {
     padding: 0;
+    height: 13%;
   }
 
   .logo {
     position: absolute;
     top: 30px;
     left: 30px;
-    height: 50px;
-  width: 50px;
+    height: 40px;
+  width: 40px;
   }
 
   .nav-links {
@@ -170,6 +330,10 @@ p {
     background-color: rgb(52, 52, 77);
     margin-top: -900px;
     transition: all 0.5s ease;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
   }
 
   .mobile-menu {
@@ -179,4 +343,69 @@ p {
   .nav-links li {
     margin: 30px auto;
   }
+
+
+  .btn {
+    margin-top: 50px;
+    background-color: #FA7942;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+
+
+
+
+  /* Aims and missions */
+  .acheivements-parent {
+    width: 100%;
+  height: 800px;
+  /* background-color: #0A3593; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -5%;
+  
+  }
+
+  .acheivements {
+    width: 80%;
+  height: 60%;
+  background: #FFFFFF;
+  border: 0.6px solid #E1D8D8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 30px rgba(142, 138, 138, 0.21);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  .vision {
+    width: 70%;
+  }
+
 }
+
+
+
+
+
