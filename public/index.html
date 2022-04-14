@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +8,104 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">
-            <p class="logo-p">ICS</p>
         </div>
         <ul class="nav-links">
-            <li><a href="#"></a>Home</li>
-            <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Services</li>
-            <li><a href="#"></a>Contact</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
         <img src="../public/img/menu.png" alt="" class="menu-btn">
     </nav>
 
     <header>
         <div class="header-content">
-        <div class="header-content-inner-1">
-            <div class="header-content-inner-2">
-                <h1>Let's Talk,</h1>
-                <h2> Grow Your BUSINESS With Us</h2>
-                <p>ICS is here to Provide adequate and speed proficiency skills to elevate the image of our clients.</p>
-                <a href="#" class="btn">Read More</a>
+            <div class="header-content-inner-1">
+                <div class="header-content-inner-2">
+                    <div class="header-text"> Grow Your Business With Us</div>
+                    <div class="paragraph-class">
+                        <span>ICS is here to Provide adequate and speed proficiency skills </span>
+                        <span>to elevate the image of our clients.</span>
+                    </div>
+                    <a href="#" class="btn">Explore Us</a>
+                </div>
             </div>
         </div>
-        </div>
     </header>
+
+
+
+    <div class="acheivements-parent">
+        <div class="acheivements">
+            <div class="vision">
+                <div class="vision-logo">
+                </div>
+                <div class="title">
+                    Our Vision
+                </div>
+
+                <div class="aims">
+                    To put information 
+                    and communication technologies to use in Africa and the world
+                </div>
+            </div>
+
+            
+
+            <div class="vision">
+                <div class="mission-logo">
+                </div>
+                <div class="title">
+                    Mission
+                </div>
+
+                <div class="aims">
+                    Providing our customers with ICT solution 
+                    that is easy and affordable to integration into the traditional business
+                </div>
+            </div>
+
+
+
+            <div class="vision">
+                <div class="value-logo">
+                </div>
+                <div class="title">
+                    Core Value
+                </div>
+
+                <div class="aims">
+                    Timeliness,Competence with creativity, Client Satisfaction, 
+                    Excellence, Accuracy.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="features-title">
+        <h3>Features  that Make Us Unique</h3>
+    </div>
+
+    <div class="features-title">
+        <h3>Features  that Make Us Unique</h3>
+    </div>
 
     <script>
         //create a btn
         const menuBtn = document.querySelector('.menu-btn');
         const navlinks = document.querySelector('.nav-links');
 
-        menuBtn.addEventListener('click', ()=> {
+        menuBtn.addEventListener('click', () => {
             navlinks.classList.toggle('mobile-menu');
         })
     </script>
 </body>
+
 </html>
