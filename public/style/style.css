@@ -602,6 +602,7 @@ display: flex;
   .navbar {
     padding: 0;
     height: 13%;
+    background-color: #ffffff;
   }
 
   .logo {
@@ -786,8 +787,8 @@ font-size: 26px;
 
 .choose-first-child-container {
   width: 90%;
-  height: 90%;
-  background: #141212;
+  height: 100%;
+  background: #ffffff;
 display: flex;
   justify-content: space-evenly;
   align-items: center;
