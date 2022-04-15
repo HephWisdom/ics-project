@@ -785,7 +785,7 @@ font-size: 26px;
 }
 
 .choose-first-child-container {
-  width: 100%;
+  width: 90%;
   height: 80%;
   background: #FFFFFF;
 display: flex;
@@ -793,7 +793,7 @@ display: flex;
   align-items: center;
   flex-direction: column;
   /* margin-top: -5%; */
-  margin-top: 1%;
+  margin-top: 4%;
 }
 
 .choose-first-sec-container {
