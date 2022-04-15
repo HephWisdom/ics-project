@@ -14,7 +14,7 @@ color: rgb(255, 255, 255);
 
 .navbar .nav-links a:hover,
 .navbar .nav-links a:focus {
-  color: #333;
+  color: #FA7942;
 }
 
 .navbar {
@@ -91,7 +91,7 @@ ul {
   height: 40px;
   width: 40px;
   /* background-color: aqua; */
-  background-image: url('../img/menu.png');
+  background-image: url('../img/icons8-menu-rounded-32.png');
   background-position: top;
   background-size: cover;
 }
@@ -387,6 +387,9 @@ height: 90%;
 
 @media  only screen and (max-width: 550px) {
  
+  .header-content-inner-2 {
+    width: 70%;
+  }
   .menu-btn {
     display: block;
     height: 40px;
