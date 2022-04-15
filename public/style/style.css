@@ -87,7 +87,14 @@ ul {
 }
 
 
-
+.menu-btn {
+  height: 40px;
+  width: 40px;
+  /* background-color: aqua; */
+  background-image: url('../img/menu.png');
+  background-position: top;
+  background-size: cover;
+}
 
 /* header */
 .header-content-inner-1{
@@ -325,7 +332,7 @@ font-size: 10px;
   height: 40px;
   width: 40px;
   /* background-color: aqua; */
-  background-image: url('../img/Management.png');
+  background-image: url('../img/Self\ Service\ Kiosk.png');
   background-position: top;
   background-size: cover;
 }
