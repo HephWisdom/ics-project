@@ -786,8 +786,8 @@ font-size: 26px;
 
 .choose-first-child-container {
   width: 90%;
-  height: 80%;
-  background: #FFFFFF;
+  height: 90%;
+  background: #141212;
 display: flex;
   justify-content: space-evenly;
   align-items: center;
