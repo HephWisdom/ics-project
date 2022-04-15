@@ -777,7 +777,7 @@ font-size: 26px;
 .choose-first-child {
   /* background-color: aqua; */
   width: 100%;
-  height: 80%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
