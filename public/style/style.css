@@ -563,6 +563,67 @@ display: flex;
 
 
 
+/* meet our founder */
+
+.founder-title {
+  margin-top: 10%;
+  padding-left: 10%;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  color: #FA7942;
+  text-align: center;
+}
+
+.founder-parent {
+  margin-top: 5%;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.founder-child {
+  width: 70%;
+  height: 260px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  /* background-color: tomato; */
+}
+
+.founder-bio {
+  padding-top: 3%;
+  width: 60%;
+  height:250px;
+  display: flex;
+  /* background-color: #0A3593; */
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.founder-name {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+}
+
+.founder-img {
+  width: 35%;
+  height: 240px;
+  /* background-color: aqua; */
+  font-family: 'Poppins';
+font-style: normal;
+  background-image: url('../img/Rectangle\ 47.png');
+  background-position: top;
+  background-size: cover;
+ 
+}
+
 
 
 
@@ -795,6 +856,7 @@ display: flex;
   flex-direction: column;
   /* margin-top: -5%; */
   margin-top: 4%;
+  padding-bottom: 5%;
 }
 
 .choose-first-sec-container {
@@ -833,5 +895,66 @@ display: flex;
 }
 
 
+
+/* meet our founder */
+
+.founder-title {
+  margin-top: 10%;
+  padding-left: 10%;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  color: #FA7942;
+  text-align: center;
+}
+
+.founder-parent {
+  margin-top: 5%;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.founder-child {
+  width: 90%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+
+  /* background-color: tomato; */
+}
+
+.founder-bio {
+  padding-top: 3%;
+  width: 90%;
+  height:250px;
+  display: flex;
+  /* background-color: #0A3593; */
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.founder-name {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+}
+
+.founder-img {
+  width: 90%;
+  height: 240px;
+  /* background-color: aqua; */
+  font-family: 'Poppins';
+font-style: normal;
+  background-image: url('../img/Rectangle\ 47.png');
+  background-position: top;
+  background-size: cover;
+ 
+}
 }
 
