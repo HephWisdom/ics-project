@@ -861,7 +861,7 @@ display: flex;
 }
 
 .choose-first-sec-container {
-  height: 70%;
+  height: 80%;
   /* background-color: #0d172a; */
 }
 
@@ -909,7 +909,7 @@ display: flex;
 }
 
 .founder-parent {
-  margin-top: 15%;
+  margin-top: 25%;
   width: 100%;
   height: 500px;
   display: flex;
@@ -925,12 +925,12 @@ display: flex;
   align-items: center;
   flex-direction: column-reverse;
 
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .founder-bio {
   padding-top: 3%;
-  width: 90%;
+  width: 85%;
   height:250px;
   display: flex;
   /* background-color: #0A3593; */
@@ -939,5 +939,10 @@ display: flex;
   flex-direction: column;
 }
 
+.founder-img {
+  width: 85%;
+  height: 240px;
+ 
+}
 }
 
