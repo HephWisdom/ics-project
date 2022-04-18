@@ -830,6 +830,7 @@ font-size: 26px;
 }
 
 .choose-parent {
+  margin-top: 30%;
   width: 100%;
   height: 100vh;
   background-color: #FFFFFF;
@@ -838,6 +839,7 @@ font-size: 26px;
 
 .choose-first-child {
   /* background-color: aqua; */
+  background: #363535;
   width: 100%;
   height: 100%;
   display: flex;
@@ -848,7 +850,7 @@ font-size: 26px;
 
 .choose-first-child-container {
   width: 90%;
-  height: 100%;
+  height: 230px;
   background: #ffffff;
 display: flex;
   justify-content: space-evenly;
@@ -860,7 +862,7 @@ display: flex;
 }
 
 .choose-first-sec-container {
-  height: 70%;
+  height: 60%;
   /* background-color: #0d172a; */
 }
 
@@ -884,6 +886,8 @@ display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: #dd5a5a;
+  height: 30%;
 }
 
 .choose-btn {
@@ -915,6 +919,7 @@ display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .founder-child {
   width: 90%;
